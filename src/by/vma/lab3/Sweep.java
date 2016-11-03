@@ -25,7 +25,7 @@ public class Sweep {
                 r = a.mul(x).subtract(f);
                 System.out.println("R: ");
                 r.print(true);
-                System.out.println("r = " + r.normI());
+                System.out.println("||r|| = " + r.normI());
             } else {
                 System.out.println("Matrix A is incorrect.");
             }
