@@ -125,12 +125,12 @@ public class Main {
                 fillAlpha();
                 fillBeta();
                 reversal();
-                System.out.println("X: ");
+                System.out.println("Решение X: ");
                 x.print(false);
                 r = a.mul(x).subtract(f);
-                System.out.println("R: ");
+                System.out.println("Вектор невязки R: ");
                 r.print(true);
-                System.out.println("||r|| = " + r.normI());
+                System.out.println("Норма вектора невзки ||R|| = " + r.normI());
             } else {
                 System.out.println("Матрица A некорректна.");
             }
